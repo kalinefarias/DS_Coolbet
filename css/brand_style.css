@@ -1,0 +1,11 @@
+.values-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin-right: 0.5em;
+}
+
+.flex-values {
+    display: flex;
+    flex-direction: row;
+}

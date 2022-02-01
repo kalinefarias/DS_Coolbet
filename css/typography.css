@@ -1,0 +1,15 @@
+.type-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.font-name, .font-style {
+    padding: 1em;
+}
+
+.robotoCondense {
+    font-family: 'Roboto Condensed', sans-serif;
+}

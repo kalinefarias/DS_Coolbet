@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" lang="pt-br" />
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Palette</title>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <button class="closebtn" onclick="closeNav()" href="javascript:void(0)">
+            <span class="material-icons material-icons-outlined">close</span>
+        </button>
+        <ul>
+            <li class="category"><a href="intro.html">Intro</a></li>
+            <li class="menu-item blue"><a href="intro.html#about">About</a></li>
+            <li class="menu-item orange"><a href="intro.html#products">Products</a></li>
+            <li class="menu-item orange"><a href="intro.html#markets">Markets</a></li>
+            <br>
+            <li class="category"><a href="brand.html">Brand</a></li>
+            <li class="menu-item blue"><a href="brand.html#brand-guidelines">Coolbet Brand Guidelines</a></li>
+            <li class="menu-item green"><a href="color.html">Palette</a></li>
+            <li class="menu-item green"><a href="typography.html">Typography</a></li>
+            <li class="menu-item orange"><a href="logo.html">Logo</a></li>
+            <li class="menu-item orange"><a href="art_style.html">Art Style</a></li>
+            <li class="menu-item red"><a href="tone-voice.html">Tone & Voice</a></li>
+            <br>
+            <li class="category"><a href="merch.html">Merch</a></li>
+            <li class="menu-item blue"><a href="merch.html#merch-guidelines">Guideline</a></li>
+            <br>
+            <li class="category"><a href="ads.html">Advertising</a></li>
+            <li class="menu-item blue"><a href="ib.html">Internal Banner</a></li>
+            <li class="menu-item green"><a href="some.html">Social Media</a></li>
+            <li class="menu-item green"><a href="eb.html">External Banners</a></li>
+            <li class="menu-item orange"><a href="video.html">Video and Motion</a></li>
+            <br>
+            <li class="category"><a href="web.html">Web Pages</a></li>
+            <li class="menu-item blue"><a href="web.html#web-guidelines">Guidelines</a></li>
+            <li class="menu-item green"><a href="templates.html">Templates</a></li>
+            <li class="menu-item green"><a href="feature.html">Features</a></li>
+            <li class="menu-item orange"><a href="components.html">Components</a></li>
+        </ul>
+    </div>
+    <div id="main" class="landing-page">
+        <button class="openbtn" onclick="openNav()">
+            <span class="material-icons material-icons-outlined">menu</span>
+        </button>
+        <section class="nav-logo">
+            <div class="image_top">
+                <img src="imgs/coolbet_logo_H.png" alt="Coolbet Logo"> </img>
+            </div>
+        </section>
+
+        <section class="lp-body">
+
+            <section class="breadcrumb-box">
+                <div class="container">
+                    <ul class="breadcrumb">
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="brand.html">Brand</a></li>
+                        <li>Palette</li>
+                    </ul>
+                </div>
+            </section>
+
+            <div id="palette" class="palette background-dark div-block">
+                <div class="container">
+                    <h3>Colors</h3>
+                    <p>Coolbet brand is colorful, fun, memorable, and full of energy.</p>
+                    <br>
+                    <h4>Primary</h4>
+                    <p>The colors are most frequently used across all media. These are usually the colors that a brand
+                        sets as its identity. Using brand colors as primary colors strengthens brand awareness.</p>
+                    <p>As was explained before, Coolbet has four main colors and each color in Coolbet logo represent
+                        one of our core values and that’s why it is so important to use them with pride.
+                    </p>
+                    <br>
+                    <h5>Review:</h5>
+                    <ul>
+                        <li>Blue: Transparent</li>
+                        <li>Green: Responsible</li>
+                        <li>Orange: Quality</li>
+                        <li>Red: Innovative</li>
+                    </ul>
+                    <div class="div-flex-palette">
+                        <div class="blue-box">
+                            <div class="background-blue color-box-size"></div>
+                            <div class="palette-info">
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">HEX:</label>
+                                        <input type="text" value="#17BEFF" id="blue-hex" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">RGB:</label>
+                                        <input type="text" value="(23,190,255)" id="blue-rgb" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">HSL:</label>
+                                        <input type="text" value="196.81,1,0.55" id="blue-hsl" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">CMYK:</label>
+                                        <input type="text" value="70,4,0,0" id="blue-cmyk" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">PANTONE:</label>
+                                        <input type="text" value="306 C" id="myInput" readonly="readonly" class="light">
+                                    </div>
+                                </button>
+
+                            </div>
+                        </div>
+                        <div class="green-box">
+                            <div class="background-green color-box-size"></div>
+                            <div class="palette-info">
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">HEX:</label>
+                                        <input type="text" value="#6FC529" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">RGB:</label>
+                                        <input type="text" value="(111,197,41)" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">HSL:</label>
+                                        <input type="text" value="93.08,0.66,0.47" id="myInput" readonly="readonly"
+                                            class="light">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">CMYK:</label>
+                                        <input type="text" value="60,0,100,0" id="myInput" readonly="readonly"
+                                            class="light">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">PANTONE:</label>
+                                        <input type="text" value="360 C" id="myInput" readonly="readonly" class="light">
+                                    </div>
+                                </button>
+
+                            </div>
+                        </div>
+
+                        <div class="orange-box">
+                            <div class="background-orange color-box-size"></div>
+                            <div class="palette-info">
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">HEX:</label>
+                                        <input type="text" value="#FF8E03" id="myInput" readonly="readonly"
+                                            class="light">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">RGB:</label>
+                                        <input type="text" value="(255,142,3)" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">HSL:</label>
+                                        <input type="text" value="33.1,1,0.51" id="myInput" readonly="readonly"
+                                            class="light">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">CMYK:</label>
+                                        <input type="text" value="0,54,100,0" id="myInput" readonly="readonly"
+                                            class="light">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">PANTONE:</label>
+                                        <input type="text" value="715 C" id="myInput" readonly="readonly" class="light">
+                                    </div>
+                                </button>
+
+                            </div>
+                        </div>
+
+                        <div class="red-box">
+                            <div class="background-red color-box-size"></div>
+                            <div class="palette-info">
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">HEX:</label>
+                                        <input type="text" value="#E11D00" id="myInput" readonly="readonly"
+                                            class="light">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">RGB:</label>
+                                        <input type="text" value="(255,29,0)" id="myInput" readonly="readonly"
+                                            class="light">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">HSL:</label>
+                                        <input type="text" value="7.73,1,0.44" id="myInput" readonly="readonly"
+                                            class="light">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">CMYK:</label>
+                                        <input type="text" value="1,99,100,0" id="myInput" readonly="readonly"
+                                            class="light">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">PANTONE:</label>
+                                        <input type="text" value="485 C" id="myInput" readonly="readonly" class="light">
+                                    </div>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+                    <h4>Secundary</h4>
+                    <p>These colors complement the primary colors. These are to be used as a supporting colors.</p>
+                    <div class="div-flex-palette">
+                        <div class="blue-box">
+                            <div class="background-blue_Sec color-box-size"></div>
+                            <div class="palette-info">
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">HEX:</label>
+                                        <input type="text" value="#118FBF" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">RGB:</label>
+                                        <input type="text" value="(17,143,191)" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">HSL:</label>
+                                        <input type="text" value="196.55,0.84,0.41" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">CMYK:</label>
+                                        <input type="text" value="86,29,11,0" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">PANTONE:</label>
+                                        <input type="text" value="7706 C" id="myInput" readonly="readonly" class="light">
+                                    </div>
+                                </button>
+
+                            </div>
+                        </div>
+
+                        <div class="green-box">
+                            <div class="background-green_Sec color-box-size"></div>
+                            <div class="palette-info">
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">HEX:</label>
+                                        <input type="text" value="#549520" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">RGB:</label>
+                                        <input type="text" value="(84,149,32)" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">HSL:</label>
+                                        <input type="text" value="93.33,0.65,0.35" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">CMYK:</label>
+                                        <input type="text" value="75,19,100,4" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">PANTONE:</label>
+                                        <input type="text" value="7738 C" id="myInput" readonly="readonly" class="light">
+                                    </div>
+                                </button>
+
+                            </div>
+                        </div>
+
+                        <div class="orange-box">
+                            <div class="background-orange_Sec color-box-size"></div>
+                            <div class="palette-info">
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">HEX:</label>
+                                        <input type="text" value="#BF6B03" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">RGB:</label>
+                                        <input type="text" value="(191,107,3)" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">HSL:</label>
+                                        <input type="text" value="33.19,0.97,0.38" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">CMYK:</label>
+                                        <input type="text" value="18,66,100,5" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">PANTONE:</label>
+                                        <input type="text" value="7414 C" id="myInput" readonly="readonly" class="light">
+                                    </div>
+                                </button>
+
+                            </div>
+                        </div>
+                        <div class="red-box">
+                            <div class="background-red_Sec color-box-size"></div>
+                            <div class="palette-info">
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">HEX:</label>
+                                        <input type="text" value="#A91600" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">RGB:</label>
+                                        <input type="text" value="(169,22,0)" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">HSL:</label>
+                                        <input type="text" value="7.81,1,0.33" id="myInput" readonly="readonly"
+                                            class="light">
+
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">CMYK:</label>
+                                        <input type="text" value="20,100,100,14" id="myInput" readonly="readonly"
+                                            class="light">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax" class="light">PANTONE:</label>
+                                        <input type="text" value="7621 C" id="myInput" readonly="readonly" class="light">
+                                    </div>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="palette-grays" class="background-light div-block">
+                <div class="container">
+                    <h3>Neutrals</h3>
+                    <p>Neutrals include shades of grey, all the way from white to black. These are used for backgrounds,
+                        text colors, etc.</p>
+                    <p>For the Coolbet brand, the darker grays are important because is the base for our product and
+                        materials.</p>
+                    <em>TIP:Avoid using pure white (#fff) or black (#000).</em>
+                    <br>
+                    <h4>Dark</h4>
+                    <div class="div-flex-palette">
+                        <div class="blue-box">
+                            <div class="background-dark color-box-size"></div>
+                            <div class="palette-info">
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">HEX:</label>
+                                        <input type="text" value="#191919" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">RGB:</label>
+                                        <input type="text" value="(25,25,25)" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">HSL:</label>
+                                        <input type="text" value="0,0,0.1" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">CMYK:</label>
+                                        <input type="text" value="73,67,65,79" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">PANTONE:</label>
+                                        <input type="text" value="419 C" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                            </div>
+                        </div>
+
+                        <div class="green-box">
+                            <div class="background-grey-medium color-box-size"></div>
+                            <div class="palette-info">
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">HEX:</label>
+                                        <input type="text" value="#282828" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">RGB:</label>
+                                        <input type="text" value="(40,40,40)" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">HSL:</label>
+                                        <input type="text" value="0,0,0.16" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">CMYK:</label>
+                                        <input type="text" value="0,0,0,84" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">PANTONE:</label>
+                                        <input type="text" value="419 C" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                            </div>
+
+                        </div>
+                        <div class="orange-box">
+                            <div class="background-light_medium color-box-size"></div>
+                            <div class="palette-info">
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">HEX:</label>
+                                        <input type="text" value="#323232" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">RGB:</label>
+                                        <input type="text" value="(50,50,50)" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">HSL:</label>
+                                        <input type="text" value="0,0,0.2" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">CMYK:</label>
+                                        <input type="text" value="0,0,0,80" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">PANTONE:</label>
+                                        <input type="text" value="419 C" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <h4>Lights</h4>
+                    <div class="div-flex-palette">
+                        <div class="red-box">
+                            <div class="coolbet-grey-light color-box-size"></div>
+                            <div class="palette-info">
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">HEX:</label>
+                                        <input type="text" value="#999999" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">RGB:</label>
+                                        <input type="text" value="(153,153,153)" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">HSL:</label>
+                                        <input type="text" value="0,0,0.6" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">CMYK:</label>
+                                        <input type="text" value="0,0,0,40" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">PANTONE:</label>
+                                        <input type="text" value="419 C" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                            </div>
+                        </div>
+
+                        <div class="orange-box">
+                            <div class="coolbet-dark-light color-box-size"></div>
+                            <div class="palette-info">
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">HEX:</label>
+                                        <input type="text" value="#cccccc" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">RGB:</label>
+                                        <input type="text" value="(204,204,204)" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">HSL:</label>
+                                        <input type="text" value="0,0,0.8" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">CMYK:</label>
+                                        <input type="text" value="0,0,0,20" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">PANTONE:</label>
+                                        <input type="text" value="419 C" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="red-box">
+                            <div class="coolbet-light-medium color-border color-box-size"></div>
+                            <div class="palette-info">
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">HEX:</label>
+                                        <input type="text" value="#ebebeb" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">RGB:</label>
+                                        <input type="text" value="(235,235,235)" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">HSL:</label>
+                                        <input type="text" value="0,0,0.93" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">CMYK:</label>
+                                        <input type="text" value="0,0,0,8" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">PANTONE:</label>
+                                        <input type="text" value="663 C" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="red-box">
+                            <div class="coolbet-light color-border color-box-size"></div>
+                            <div class="palette-info">
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">HEX:</label>
+                                        <input type="text" value="#f2f2f2" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">RGB:</label>
+                                        <input type="text" value="(242,242,242)" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">HSL:</label>
+                                        <input type="text" value="0,0,0.95" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">CMYK:</label>
+                                        <input type="text" value="0,0,0,5" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                                <button onclick="myFunction()">
+                                    <div>
+                                        <label for="datemax">PANTONE:</label>
+                                        <input type="text" value="419 C" id="myInput" readonly="readonly">
+                                    </div>
+                                </button>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="provider-colors" class="background-light_medium div-block">
+                <div class="container">
+                    <h4>Provider's Campaigns</h4>
+                    <p>Sometimes, Casino and Poker have external campaigns. These campaigns came from the provider
+                        with assets that need to be used.</p>
+                    <p>In this case, the colors are defined by the provider's assets and campaign directions.</p>
+                </div>
+            </div>
+
+            <div id="palette-limits" class="background-grey-medium div-block">
+                <div class="container">
+                    <h4>Colors Limits</h4>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+
+        </section>
+        <footer></footer>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>

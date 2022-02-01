@@ -1,0 +1,38 @@
+  
+#main {
+    transition: margin-left .5s;
+    padding: 0px;
+}
+.landing-page .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../imgs/CVI_top.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 100%;
+    padding: 1em 0;
+}
+
+.landing-page .top .image_top {
+    margin: 10em auto;
+    text-align: center;
+}
+
+.landing-page .top .image_top .main-logo {
+    margin: auto;
+    text-align: center;
+    max-width: 500px;
+}
+
+.landing-page .lp-body .upgrades ul {
+    margin: 0;
+    padding: 0;
+}
+
+.landing-page .lp-body .upgrades ul li {
+    list-style: none;
+    margin-bottom: 1.5em;
+}
+

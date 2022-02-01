@@ -1,0 +1,18 @@
+.art_style_box {
+    max-width: 25%;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.art_style_box p {
+    font-weight: 700;
+    text-align: center;
+}
+
+.art_style_img {
+    max-width: 200px;
+}
+
+.art_style_bgs {
+    max-width: 100%;
+}
