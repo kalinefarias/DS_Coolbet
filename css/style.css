@@ -110,6 +110,10 @@ em {
     text-shadow:rgba(0, 0, 0, 0.15) 0 .125em .25em ;
 }
 
+a {
+    color: var(--coolbet-primary-blue);
+}
+
 
 /*COLORS*/
 

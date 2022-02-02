@@ -11,23 +11,10 @@ function closeNav() {
 }
 
 
-
-
-
-
-
-  /* Get the text field, fix. this one only get 1 input */
-function myFunction() {
-  /* Get the text field */
-  var copyText = document.getElementById("myInput");
-
-  /* Select the text field */
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /* For mobile devices */
-
-   /* Copy the text inside the text field */
-  navigator.clipboard.writeText(copyText.value);
-
-  /* Alert the copied text */
-  alert("Copied the text: " + copyText.value);
+function copy() {
+  document.getElementsByClassName('color-field').select();
+  document.execCommand('copy');
+  alert("Text Copied");
 }
+
+
