@@ -13,3 +13,7 @@
 .robotoCondense {
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+img {
+    max-width: 100%;
+}

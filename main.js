@@ -10,11 +10,30 @@ function closeNav() {
   document.getElementById("main").style.marginLeft = "0";
 }
 
+const copyables = document.getElementsByClassName("copyable")
 
-function copy() {
-  document.getElementsByClassName('color-field').select();
-  document.execCommand('copy');
-  alert("Text Copied");
+for(var i = 0; i < copyables.length; i++) {
+  const copyableItem = copyables[i]
+
+  tippy(copyableItem, {
+    trigger: 'click',
+    content: 'Copied!',
+    onShow(instance) {
+      setTimeout(() => {
+        instance.hide();
+      }, 1000)
+    }
+  })
+
+  copyableItem.addEventListener('click', () => {
+    copy(copyableItem)
+  })
+}
+
+function copy(element) {
+  element.select()
+  document.execCommand("copy")
+  window.getSelection().removeAllRanges()
 }
 
 

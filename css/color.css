@@ -44,8 +44,8 @@ input, label, button {
     font-size: .85em;
     padding: 0 0.3em;
     cursor: pointer;
-    max-width: 64%;
     color: var(--coolbet-light-dark);
+    max-width: 64%;
 }
 
 input:focus-visible {
@@ -57,8 +57,9 @@ label, span {
     align-self: center;
 }
 
-button span.material-icons {
-    font-size: 18px;
+.field {
+    position: relative;
+    margin: 0.5em;
 }
 
 .field .copy {
@@ -71,15 +72,15 @@ button span.material-icons {
     opacity: 0.75;
     transition: all 0.1s ease;
     -webkit-transition: all 0.1s ease;
-    --borderColor: var(--coolbet-light-dark);
+
 }
 
-/*.field .copy:before {
+.field .copy:before {
     display: block;
     content: '';
     width: 12px;
     height: 12px;
-    border: 1px solid var(--borderColor);
+    border: 1px solid var(--coolbet-light-dark);
 }
 
 .field .copy:after {
@@ -87,9 +88,9 @@ button span.material-icons {
     content: '';
     width: 12px;
     height: 12px;
-    border-left: 1px solid var(--borderColor);
-    border-top: 1px solid var(--borderColor);
+    border-left: 1px solid var(--coolbet-light-dark);
+    border-top: 1px solid var(--coolbet-light-dark);
     position: absolute;
     top: 4px;
     left: 4px;
-}*/
+}
