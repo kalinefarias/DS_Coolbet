@@ -436,6 +436,7 @@ a {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-bottom: 3em;
 }
 
 .landing-page .main-menu .flex-collumn p {
@@ -447,8 +448,8 @@ a {
 .landing-page .main-menu-small .container .main-menu-item {
     min-width: 160px;
     height: 160px;
-    border: 1px solid var(--coolbet-primary-green);
-    border-radius: 10px;
+    border: 2px solid var(--coolbet-primary-green);
+    border-radius: 26px;
     margin: 1em .5em;
     transition: transform .2s;
     background-color: #1919197e;

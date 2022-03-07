@@ -1,0 +1,17 @@
+.one, .two, .three, .four, .five {
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.landing-page .main-menu-small .container .one {
+    background-image: url("../imgs/menu/templates.png");
+}
+
+.landing-page .main-menu-small .container .two {
+    background-image: url("../imgs/menu/features.png");
+}
+
+.landing-page .main-menu-small .container .three {
+    background-image: url("../imgs/menu/components.png");
+}

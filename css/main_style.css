@@ -16,7 +16,7 @@
 }
 
 .landing-page .top .image_top {
-    margin: 10em auto;
+    margin: 7em auto;
     text-align: center;
 }
 
@@ -36,3 +36,28 @@
     margin-bottom: 1.5em;
 }
 
+.one, .two, .three, .four, .five {
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.landing-page .main-menu-small .container .one {
+    background-image: url("../imgs/menu/coolbet.png");
+}
+
+.landing-page .main-menu-small .container .two {
+    background-image: url("../imgs/menu/brand.png");
+}
+
+.landing-page .main-menu-small .container .three {
+    background-image: url("../imgs/menu/merch.png");
+}
+
+.landing-page .main-menu-small .container .four {
+    background-image: url("../imgs/menu/ads.png");
+}
+
+.landing-page .main-menu-small .container .five {
+    background-image: url("../imgs/menu/web.png");
+}

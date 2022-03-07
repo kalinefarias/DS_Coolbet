@@ -1,0 +1,21 @@
+.one, .two, .three, .four, .five {
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.landing-page .main-menu-small .container .one {
+    background-image: url("../imgs/menu/IB.png");
+}
+
+.landing-page .main-menu-small .container .two {
+    background-image: url("../imgs/menu/Some.png");
+}
+
+.landing-page .main-menu-small .container .three {
+    background-image: url("../imgs/menu/EB.png");
+}
+
+.landing-page .main-menu-small .container .four {
+    background-image: url("../imgs/menu/video.png");
+}
