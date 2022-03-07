@@ -4,6 +4,22 @@
     margin: 0.5em;
 }
 
+.art_style_box2 {
+    max-width: 45%;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.art_style_box2 p {
+    max-width: 100%;
+    padding: 0.5em;
+}
+
+.art_style_box2 img {
+    max-width: 100%;
+    padding: 0.5em;
+}
+
 .art_style_box p {
     font-weight: 700;
     text-align: center;
@@ -15,4 +31,35 @@
 
 .art_style_bgs {
     max-width: 100%;
+}
+
+.art_style_bgsize {
+    text-align: center;
+}
+
+.art_style_bgsize img {
+    max-width: 40%;
+}
+
+.divider {
+    width: 55%;
+    height: 2px;
+    border-radius: 1px;
+    margin-bottom: .8em;
+
+}
+
+#main > section.lp-body > div:nth-child(8) > div > div.flex-row > div:nth-child(1) > div {
+    background: var(--coolbet-primary-blue);
+    background: linear-gradient(90deg, var(--coolbet-primary-blue) 0%, var(--coolbet-primary-green) 100%);
+}
+
+#main > section.lp-body > div:nth-child(8) > div > div.flex-row > div:nth-child(3) > div {
+    background: var(--coolbet-primary-orange);
+    background: linear-gradient(90deg, var(--coolbet-primary-green) 0%, var(--coolbet-primary-orange) 100%);
+}
+
+#main > section.lp-body > div:nth-child(8) > div > div.background-grey-medium.div-block > div > div.divider {
+    background: var(--coolbet-primary-red);
+    background: linear-gradient(90deg, var(--coolbet-primary-orange) 0%, var(--coolbet-primary-red) 100%);
 }
