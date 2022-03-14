@@ -1,0 +1,53 @@
+.button_pdf {
+    width: 100%;
+    box-shadow: 0 0 0 6px #000000;
+    transform: 2s;
+    margin: auto;
+}
+
+.button_pdf:hover {
+    transform: scale(5%);
+}
+
+.landing-page .lp-body .container .div-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.landing-page .lp-body .divider {
+    width: 55%;
+    height: 2px;
+    border-radius: 1px;
+    margin-bottom: .8em;
+
+}
+
+body > div.landing-page > section.lp-body > div.products > div > div:nth-child(3) {
+    background: var(--coolbet-primary-blue);
+    background: linear-gradient(90deg, var(--coolbet-primary-blue) 0%, var(--coolbet-primary-green) 100%);
+}
+
+#products > div > div:nth-child(9) {
+    background: var(--coolbet-primary-orange);
+    background: linear-gradient(90deg, var(--coolbet-primary-green) 0%, var(--coolbet-primary-orange) 100%);
+}
+
+#products > div > div:nth-child(14) {
+    background: var(--coolbet-primary-red);
+    background: linear-gradient(90deg, var(--coolbet-primary-orange) 0%, var(--coolbet-primary-red) 100%);
+}
+
+.markets .container img {
+    max-width: 100%;
+}
+
+.about {
+    background-image: url("../imgs/intro_coolbet.png");
+    background-position: top right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.about-content p {
+    max-width: 50%;
+}
