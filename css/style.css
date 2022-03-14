@@ -145,6 +145,11 @@ a {
     color: var(--coolbet-grey-medium_light);
 }
 
+.background-donts {
+    background-color: var(--coolbet-secundary-orange);
+    color: #f2f2f2;
+}
+
 .coolbet-dark-light {
     background-color: var(--coolbet-light-dark);
 }
@@ -226,6 +231,15 @@ a {
     justify-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.flex-row-centered {
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
 
 .links {
