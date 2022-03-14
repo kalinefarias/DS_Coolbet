@@ -6,7 +6,9 @@
 }
 
 .button_pdf:hover {
-    transform: scale(5%);
+    transform: scale(110%);
+    background-color: #000000;
+    opacity: 0.5;
 }
 
 .landing-page .lp-body .container .div-flex {
